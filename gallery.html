@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NM Premium Detailing | Gallery</title>
+  <meta name="description" content="Gallery and before/after photos">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a href="/index.html" class="brand" aria-label="NM Premium Detailing home">
+        <span class="brand-name">NM Premium<span>North Mankato</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="/packages.html">Services</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/process.html">Reviews</a>
+        <a href="/packages.html#book">Book Now</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-chrome" href="tel:5079780537">📞 <span class="full">(507) 978-0537</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="ba-wrap">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Gallery</div>
+          <h2>Before &amp; After</h2>
+          <p>Drag the slider to compare our work. Replace these placeholders with your own photos.</p>
+        </div>
+        <div class="ba-slider">
+          <div class="ba-frame">
+            <div class="ba-img ba-before">
+              <span class="ba-tag">BEFORE</span>
+              <span class="ba-caption">◈ Photo slot — 1200×750 — dirty/dull vehicle, straight-on angle</span>
+            </div>
+            <div class="ba-img ba-after" id="baAfter">
+              <span class="ba-tag">AFTER</span>
+              <span class="ba-caption">◈ Photo slot — same angle — freshly detailed result</span>
+            </div>
+            <div class="ba-handle" id="baHandle" tabindex="0" aria-hidden="true"></div>
+          </div>
+          <input type="range" min="0" max="100" value="50" class="ba-range" id="baRange" aria-label="Drag to compare before and after photos">
+          <p class="ba-hint">Use your mouse, finger, or arrow keys to compare</p>
+        </div>
+
+        <div style="margin-top:36px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
+          <div style="background:var(--bg-panel);padding:12px;border-radius:8px;border:1px solid var(--border);">◈ Photo slot — 800×500</div>
+          <div style="background:var(--bg-panel);padding:12px;border-radius:8px;border:1px solid var(--border);">◈ Photo slot — 800×500</div>
+          <div style="background:var(--bg-panel);padding:12px;border-radius:8px;border:1px solid var(--border);">◈ Photo slot — 800×500</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooter"></div>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
