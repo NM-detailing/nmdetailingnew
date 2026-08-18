@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NM Premium Detailing | Packages & Booking</title>
+  <meta name="description" content="Packages and booking for NM Premium Detailing">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a href="/index.html" class="brand" aria-label="NM Premium Detailing home">
+        <span class="brand-name">NM Premium<span>North Mankato</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="/index.html">Home</a>
+        <a href="/packages.html">Packages</a>
+        <a href="/process.html">How it Works</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-chrome" href="tel:5079780537">📞 <span class="full">(507) 978-0537</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- PACKAGES -->
+    <section id="services">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Packages &amp; Pricing</div>
+          <h2>Built For Every Level Of Shine.</h2>
+          <p>Three packages, priced for what your vehicle actually needs — not a one-size-fits-all wash.</p>
+        </div>
+        <div class="tiers">
+
+          <div class="tier">
+            <div class="tier-photo"><span class="slot-label">◈ Photo — 800×500 — exterior wash in progress</span></div>
+            <div class="tier-body">
+              <h3 class="tier-name">Maintenance</h3>
+              <div class="tier-price"><sup>Starting at</sup>$149</div>
+              <p class="tier-desc">A thorough refresh for cars that just need the grime knocked back.</p>
+              <ul class="tier-list">
+                <li>Full exterior hand wash &amp; dry</li>
+                <li>Wheels &amp; tires cleaned</li>
+                <li>Interior vacuum</li>
+                <li>Dash &amp; console wipe-down</li>
+                <li>Windows cleaned inside &amp; out</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tier tier-featured">
+            <div class="tier-photo">
+              <span class="tier-badge">Most Popular</span>
+              <span class="slot-label">◈ Photo — 800×500 — interior shampoo/detail shot</span>
+            </div>
+            <div class="tier-body">
+              <h3 class="tier-name">Exclusive</h3>
+              <div class="tier-price"><span class="set-price">$———</span></div>
+              <div class="price-note">◆ set your price here</div>
+              <p class="tier-desc">Deeper interior detail plus paint decontamination for a noticeably sharper finish.</p>
+              <ul class="tier-list">
+                <li>Everything in Maintenance</li>
+                <li>Clay bar paint decontamination</li>
+                <li>Interior shampoo (carpets &amp; mats)</li>
+                <li>Leather &amp; vinyl conditioning</li>
+                <li>Streak-free glass + trim dressing</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tier">
+            <div class="tier-photo"><span class="slot-label">◈ Photo — 800×500 — paint correction/gloss shot</span></div>
+            <div class="tier-body">
+              <h3 class="tier-name">Presidential</h3>
+              <div class="tier-price"><span class="set-price">$———</span></div>
+              <div class="price-note">◆ set your price here</div>
+              <p class="tier-desc">The full showroom treatment, built to protect your finish through a Minnesota winter.</p>
+              <ul class="tier-list">
+                <li>Everything in Exclusive</li>
+                <li>Full paint correction &amp; gloss enhancement</li>
+                <li>Ceramic-grade paint protection</li>
+                <li>Deep steam clean + embedded pet hair removal</li>
+                <li>Engine bay detail</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <p class="addon-note"><strong>Also offering window cleaning</strong> — ask about seasonal availability when you book.</p>
+      </div>
+    </section>
+
+    <!-- BOOKING FORM -->
+    <section class="book-wrap" id="book">
+      <div class="container">
+        <div class="book-grid">
+          <div class="book-info">
+            <div class="eyebrow">Book Your Detail</div>
+            <h2>Ready For A Fresh Start?</h2>
+            <p>Fill out the form and we'll text or call you back to confirm a time — usually same day.</p>
+            <div class="book-info-row"><span class="ic">📞</span> <a href="tel:5079780537">(507) 978-0537</a></div>
+            <div class="book-info-row"><span class="ic">📍</span> North Mankato, MN &amp; surrounding area</div>
+            <div class="book-info-row"><span class="ic">⏱</span> Most bookings confirmed same day</div>
+          </div>
+
+          <form class="book-form" id="bookForm">
+            <div class="form-row">
+              <div class="field">
+                <label for="fName">Full Name</label>
+                <input id="fName" name="name" type="text" required autocomplete="name">
+              </div>
+              <div class="field">
+                <label for="fPhone">Phone</label>
+                <input id="fPhone" name="phone" type="tel" required autocomplete="tel">
+              </div>
+            </div>
+            <div class="field">
+              <label for="fEmail">Email (optional)</label>
+              <input id="fEmail" name="email" type="email" autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="fVehicle">Vehicle Make &amp; Model</label>
+              <input id="fVehicle" name="vehicle" type="text" placeholder="e.g. 2021 Ford F-150" required>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="fService">Service</label>
+                <select id="fService" name="service" required>
+                  <option value="">Select a package</option>
+                  <option>Maintenance</option>
+                  <option>Exclusive</option>
+                  <option>Presidential</option>
+                  <option>Window Cleaning</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="fDate">Preferred Date</label>
+                <input id="fDate" name="date" type="date">
+              </div>
+            </div>
+            <div class="field">
+              <label for="fNotes">Notes (optional)</label>
+              <textarea id="fNotes" name="notes" placeholder="Anything we should know? Pet hair, stains, tight timeline, etc."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Book Now</button>
+            <p class="form-status" id="formStatus"></p>
+            <p class="form-note">Prefer to skip the form? Call or text (507) 978-0537.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooter"></div>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
