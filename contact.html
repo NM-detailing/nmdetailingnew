@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NM Premium Detailing | Contact</title>
+  <meta name="description" content="Contact NM Premium Detailing">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a href="/index.html" class="brand" aria-label="NM Premium Detailing home">
+        <span class="brand-name">NM Premium<span>North Mankato</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="/packages.html">Services</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/process.html">Reviews</a>
+        <a href="/packages.html#book">Book Now</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-chrome" href="tel:5079780537">📞 <span class="full">(507) 978-0537</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container" style="padding:64px 0;">
+      <div class="section-head">
+        <div class="eyebrow">Get In Touch</div>
+        <h2>Contact Us</h2>
+        <p>Call or text (507) 978-0537 to speak directly. Use the form below to send a quick message and we'll get back to you.</p>
+      </div>
+
+      <div style="max-width:700px;margin:0 auto;">
+        <div style="display:flex;gap:18px;margin-bottom:24px;align-items:center;">
+          <div style="font-family:var(--font-mono);color:var(--blue-300);">📞</div>
+          <div><a href="tel:5079780537">(507) 978-0537</a></div>
+        </div>
+        <div style="display:flex;gap:18px;margin-bottom:24px;align-items:center;">
+          <div style="font-family:var(--font-mono);color:var(--blue-300);">📍</div>
+          <div>North Mankato, MN &amp; surrounding area</div>
+        </div>
+
+        <form id="contactForm" style="background:var(--bg-panel-2);border:1px solid var(--border);border-radius:12px;padding:20px;display:flex;flex-direction:column;gap:12px;">
+          <label for="cName" style="font-family:var(--font-mono);font-size:0.75rem;color:var(--chrome-400);">Name</label>
+          <input id="cName" name="name" type="text" required style="padding:10px;border-radius:6px;background:var(--bg-deep);border:1px solid var(--chrome-600);color:var(--chrome-100);">
+          <label for="cPhone" style="font-family:var(--font-mono);font-size:0.75rem;color:var(--chrome-400);">Phone</label>
+          <input id="cPhone" name="phone" type="tel" required style="padding:10px;border-radius:6px;background:var(--bg-deep);border:1px solid var(--chrome-600);color:var(--chrome-100);">
+          <label for="cMessage" style="font-family:var(--font-mono);font-size:0.75rem;color:var(--chrome-400);">Message</label>
+          <textarea id="cMessage" name="message" rows="4" style="padding:10px;border-radius:6px;background:var(--bg-deep);border:1px solid var(--chrome-600);color:var(--chrome-100);"></textarea>
+          <button type="submit" class="btn btn-primary">Send</button>
+          <p class="form-status" id="contactStatus"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooter"></div>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
